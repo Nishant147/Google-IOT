@@ -11,7 +11,7 @@ async def hello(websocket, path):
     print(f"> {greeting}")
 
 port = int(os.getenv('PORT', 5687))
-start_server = websockets.serve(hello, '', port, klass=HttpWSSProtocol)
+start_server = websockets.serve(hello, '', port)
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
