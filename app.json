@@ -1,0 +1,9 @@
+{
+  "name": "Google-IOT",
+  "description": "Works with IOT devices over the firewall with google home",
+  "website": "https://google-iot.herokuapp.com",
+  "success_url": "/index.html",
+  "repository": "https://github.com/Nishant147/Google-IOT",
+  "logo": "https://pluralsight.imgix.net/paths/path-icons/nodejs-601628d09d.png",
+  "keywords": ["esp8266", "google", "assistant", "iot", "arduino"]
+}
